@@ -34,20 +34,20 @@ void moverRainha(int casas) {
 
 /* ===================== CAVALO (LOOPS ANINHADOS COMPLEXOS) ===================== */
 void moverCavalo() {
-    int vertical, horizontal;
+    
 
     printf("Cavalo:\n");
 
     /* Duas casas para cima */
-    for (vertical = 1; vertical <= 2; vertical++) {
+    for ( int moverV = 1; moverV <= 2; moverV++) {
         printf("Cima\n");
 
-        if (vertical == 1)
+        if (moverV == 1)
             continue;
     }
 
     /* Uma casa para a direita */
-    for (horizontal = 1; horizontal <= 1; horizontal++) {
+    for ( int moverH = 1; moverH <= 1; moverH++) {
         printf("Direita\n");
         break;
     }
