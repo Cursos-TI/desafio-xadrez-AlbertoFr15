@@ -30,6 +30,21 @@ int main() {
         casas++;
     } while (casas <= 5);
 
+    //4. CAVALO (USAR FOR ANINHADO)
+    printf("Mover do CAVALO(horizontal/vertical):\n");
+
+    //Cavalo anda 2 casas para cima e 1 para direita
+    int mov;
+    int move = 1;
+     for (mov = 2; mov <= 2; mov++){
+        printf("Cavalo move 2 casas para cima %d\n", mov);
+        
+        while (move <= 1){
+            printf("Cavalo move 1 casa para direita %d\n\n", move);
+            move++;
+        }
+     }
+
     return 0;
 }
 
